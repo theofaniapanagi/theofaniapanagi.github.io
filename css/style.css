@@ -1,0 +1,38 @@
+
+
+.section2-img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 30%;
+}
+
+    h2 {
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    left: -20px;
+    margin-bottom: 40px;
+}
+
+    body {
+    background-color: #E8D5F2;
+}
+
+    .row:first-of-type {
+    margin-bottom: 30px;
+}
+
+    h1 {
+    color: #FF8C00;
+}
+
+    p {
+    font-size: 25px;
+}
+
