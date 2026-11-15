@@ -79,10 +79,99 @@ hr {
     position: relative;
     left: 850px;
      position: relative;
-    top: -140px;
+    top: -250px;
 }
 
 ul {
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 24px;
+}
+
+    .third-line {
+    position: relative;
+    top: -120px;
+}
+
+h2.photos-title {
+    position: relative;
+    top: -50px;
+}
+
+
+    /* Εμφάνιση σε κινητά */
+    @media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 26px;
+        left: 0;
+        text-align: center;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 23px;
+        left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    ul {
+        font-size: 17px;
+        padding-left: 30px;
+        margin-top: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .first-images {
+        width: 100%;
+    }
+
+    .section2-img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .images-right,
+    .big-image {
+        width: 100%;
+        max-width: 100%;
+        position: static;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .col-md-3,
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
