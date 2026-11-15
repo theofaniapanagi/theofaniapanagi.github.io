@@ -97,6 +97,14 @@ h2.photos-title {
     top: -50px;
 }
 
+    img {
+    border: 3px solid #E75480;
+    border-radius: 15px;
+}
+
+
+
+
 
     /* Εμφάνιση σε κινητά */
     @media (max-width: 768px) {
